@@ -1,0 +1,180 @@
+.header
+{
+    background-color: blue;
+    color: white;
+    text-align: center
+}
+.banner
+{
+    width: 100%;
+    height: 350px;
+    background-image: url('home image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.aboutus
+{
+    background-color: sandybrown;
+}
+.aboutus .content
+{
+    text-align: justify;
+}
+.aboutus .title
+{
+    text-align: center;
+}
+.box1
+{
+    width: 33%;
+    height: 300px;
+    background-image: url('box1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+}
+.box2
+{
+    width: 33%;
+    height: 300px;
+    background-image: url('box2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+
+}
+.box3
+{
+    width: 33%;
+    height: 300px;
+    background-image: url('box3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+
+}
+.box1 .Cse{
+    background-color: black;
+    color: white;
+    opacity: 0.5;
+    text-align: center;
+}
+.box2 .Library{
+    background-color: black;
+    color: white;
+    opacity: 0.5;
+    text-align: center;
+}
+.box3 .Biotech{
+    background-color: black;
+    color: white;
+    opacity: 0.5;
+    text-align: center;
+}
+.box1 .Cse:hover{
+    opacity: 1;
+}
+.box2 .Library:hover{
+    opacity: 1;
+}
+.box3 .Biotech:hover{
+    opacity: 1;
+}
+.campus{
+    width: 50%;
+    height: 300px;
+    background-color: sandybrown;
+    padding: 5%;
+    box-sizing: border-box;
+    float: left;
+}
+.campus .content{
+    text-align: justify;
+}
+    
+.campus .title{
+    text-align: center;
+}
+    
+.a1{
+    width: 50%;
+    height: 300px;
+    background-image: url("career demo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+}
+.a2{
+    width: 50%;
+    padding-left: 9%;
+    padding-top: 15px;
+    box-sizing: border-box;
+    height: 300px;
+    background-image: url("nature.jpg");
+    background-size: cover;
+    float: left;
+}
+
+.a2 form{
+    width: 500px;
+    height: 250px;
+    background-color: white;
+}
+
+.a2 form h3{
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.a2 form input{
+    width: 95%;
+    margin-left: 8px;
+    margin-top: 8px;
+    height: 35px;
+    background-color: rgb(202, 201, 201);
+    border: none;
+    border-radius: 7px;
+}
+
+.a2 form input:focus{
+    outline: 2px solid rgb(8, 143, 187);
+    background: none;
+
+}
+
+.a2 form input::placeholder{
+    opacity: .4;
+    color: black;
+    padding: 5px;
+}
+
+.a2 form label{
+    padding-left:10px ;
+}
+
+.a2 button{
+    border: none;
+    margin-top: 25px;
+    border-radius: 7px;
+    width: 95%;
+    height: 35px;
+    background-color: rgb(8, 143, 187);
+    margin-left: 8px;
+}
+
+.a3 {
+        width: 50%;
+        height: 300px;
+        background-color: sandybrown;
+        padding: 5%;
+        box-sizing: border-box;
+         float: left;
+}
+.a3 .content{
+    text-align: justify;
+}
+    
+.a3 .title{
+    text-align: center;
+}

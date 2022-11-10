@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js" type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+    <script>
+        var app = angular.module('myapp', ['ngRoute']);
+        app.config(function($routeProvider) {
+            $routeProvider.when('/front', {
+                    templateUrl: 'front.html'
+                })
+                .when('/home', {
+                    templateUrl: 'home.html'
+                })
+                .when('/resume', {
+                    templateUrl: 'Resume.html'
+                })
+                .when('/admission', {
+                    templateUrl: 'Admissions.html'
+                })
+                .when('/resume', {
+                    templateUrl: 'Resume.html'
+                })
+                .otherwise({
+                    redirectTo: '/'
+                })
+        })
+    </script>
+</head>
+
+<body ng-app="myapp">
+    <table cellspacing=3 0 border="0" width="100%" style="background-color: gray; color: aqua;">
+        <td><a href="#!front">front</a></td>
+        <td><a href="#!home">home</a></td>
+        <td><a href="#!admission">Admissions</a></td>
+        <td><a href="#!resume">Resume</a></td>
+    </table>
+    <hr>
+    <div ng-view>
+    </div>
+</body>
+
+</html>
